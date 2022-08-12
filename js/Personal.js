@@ -13,7 +13,7 @@ function addImage(){
     var img = document.createElement("img");
     imgContainer.appendChild(img);
     //add source to img
-    img.src= "./img/fish.jpg";
+    img.src= "../img/fish.jpg";
 }
 
 //add my name

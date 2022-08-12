@@ -1,6 +1,9 @@
 *{
     font-family:Arial;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     margin: 0;

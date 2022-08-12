@@ -13,7 +13,7 @@ function addImage(){
     var img = document.createElement("img");
     imgContainer.appendChild(img);
     //add source to img
-    img.src= "../img/fish.jpg";
+    img.src= "./img/fish.jpg";
 }
 
 //add my name
@@ -41,7 +41,7 @@ function addResume(){
     var a = document.createElement('a');
     resumeContainer.appendChild(a);
     a.download = "resume.pdf";
-    a.href = "../file/resume.pdf";
+    a.href = "./file/resume.pdf";
     //create button
     var button = document.createElement("button");
     a.appendChild(button);

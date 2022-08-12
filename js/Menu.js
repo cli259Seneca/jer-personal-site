@@ -19,13 +19,13 @@ function menuList(){
     }
 
     var home = document.getElementById("item0");
-    home.href = "./index.html#main";
+    home.href = "../index.html";
     var info = document.getElementById("item1");
-    info.href = "./index.html#infographic";
+    info.href = "../index.html#infographic";
     var edu = document.getElementById("item2");
-    edu.href = "./index.html#education";
+    edu.href = "../index.html#education";
     var form = document.getElementById("item3");
-    form.href = "./contact.html";
+    form.href = "../contact.html";
 }
 
 //window

@@ -19,7 +19,7 @@ function menuList(){
     }
 
     var home = document.getElementById("item0");
-    home.href = "google.com";
+    home.href = "./";
     var info = document.getElementById("item1");
     info.href = "./#infographic";
     var edu = document.getElementById("item2");

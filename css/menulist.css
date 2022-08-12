@@ -1,0 +1,30 @@
+#menu_list{
+    background-color: #303841;
+    background-size: cover;
+    width: 100%;
+    font-weight: 1000;
+}
+
+#menu_list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+  
+#menu_list li {
+    float:left;
+}
+  
+#menu_list li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+#menu_list li a:hover {
+    background-color: #F6C90E;
+    color: #3a4750;
+}

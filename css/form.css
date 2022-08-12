@@ -1,0 +1,45 @@
+*{
+    font-family:Arial;
+}
+
+body{
+    margin: 0;
+    background-image: url(../img/HomeKong.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#form_layout{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+form {
+    margin: 0 auto;
+    width: 600px;
+    padding: 1em;
+    background-color: rgba(1,1,1, 0.5);
+    color:#BDBDBD;
+    font-size: 15px;
+}
+
+input, textarea{
+    resize: none;
+    border: none;
+}
+
+input[type = "submit"], input[type = "reset"]{
+   width:22%;
+    background: #3a4750;
+    cursor: pointer;
+    font-size: 15px;
+    color:#f6c90e;
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+}

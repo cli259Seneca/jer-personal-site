@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta name="author" content="Cheuk Lung Li" />
+    <title>WEB222</title>
+    <link rel='stylesheet' type='text/css' href='../css/form.css'>
+    <link rel='stylesheet' type='text/css' href='../css/menulist.css'>
+</head>
+<body>
+<div id="menu_list"></div>
+
+<div id="form_layout">
+
+    <form action="https://httpbin.org/post" method="post" id="form" onsubmit="return formValidation()">
+        <h1>Almost there~ Fill in the form and I will find you.</h1>
+        <p>
+            <label for="fname">
+                First Name (Preferred Name)*: 
+                <br>
+                <input type="text" name="fname" id="fname" maxlength="25" value=''>
+            </label>
+        </p>
+        <p>
+            <label for="lname">
+                Last Name*: 
+                <br>
+                <input type="text" name="lname" id="lname" maxlength="25" value=''>
+            </label>
+        </p>
+
+        <p>
+            <label for="email">
+                Email*: 
+                <br>
+                <input type="email" name="email" id="email" maxlength="25" value=''>
+            </label>
+        </p>
+         <p>
+            <label for="contact_address">
+                Address*: 
+                <br>
+                <input type="text" name="contact_address" id="contact_address" maxlength="50" value=''>
+            </label>
+        </p>
+        <p>
+            <label for="city">
+                City*: 
+                <br>
+                <input list="city" name = "cities" id="cities" maxlength="40" value=''>
+                <datalist id="city">
+                    <option value="Brampton">
+                    <option value="Toronto">
+                    <option value="Ottawa">
+                    <option value="Mississauga">
+                    <option value="Hamilton">
+                    <option value="London">
+                    <option value="Markham">
+                    <option value="Vaughan">
+                    <option value="Kitchener">
+                    <option value="Windsor">
+                    <option value="Richmond Hill">
+                    <option value="Kingston">
+                    <option value="Barrie">
+                    <option value="Oshawa">
+                    <option value="Burlington">
+                    <option value="Montreal">
+                    <option value="Québec">
+                    <option value="Waterloo">
+                </datalist>
+            </label>
+        </p>
+        <p>
+            <label for="postal">
+                Postal Code*:
+                <br>
+                <input type="text" maxlength = "6" name="postal" id="postal" value=''>
+            </label>
+        </p>
+        <p>
+            Contact me for*:
+            <br>
+            <label for="purpose1" >
+                <input type="radio" name="purpose" id="purpose1" checked> Question
+            </label>
+            <br>
+            <label for="purpose2" >
+            <input type="radio" name="purpose" id="purpose2"> Comment 
+            </label>
+            <br>
+            <label for="purpose3" >
+                <input type="radio" name="purpose" id="purpose3"> Hiring
+            </label>
+        </p>
+
+        <div id = message> 
+            <p>
+            Enter the message below*:
+            <textarea name="message" id="message-box" cols="60" rows="6" value=''></textarea>
+            </p>
+            
+        </div>
+
+        <p>
+        <input type="submit" value ="Submit">
+        <input type="reset" value ="Clear">
+        </p>
+
+    </form>
+    
+</div>
+
+<script src='../js/Menu.js'></script>
+<script src='../js/Contact.js'></script>
+
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+*{
+    font-family:Arial;
+}
+
+body{
+    margin:0;
+    background-color: #eeeeee;
+}
+
+h1{
+    text-align: left;
+}
+
+td{
+    padding:5px 20px 5px 0px;
+}
+
+/*main section*/
+#main{
+    font-weight: 600;
+}
+
+/*main -> personal section*/
+#personal{
+    background-color: #3a4750;
+    color: #cdcbcb;
+}
+
+/*main -> personal section -> image div*/
+#image{
+    padding: 60px 0px 100px;
+}
+/*main -> personal section -> image div -> img*/
+img{
+height: 300px;
+width:auto;
+margin: auto;
+display: block;
+}
+/*main -> personal section -> image div -> h1 and p*/
+#image h1, #image p{
+    text-align: center;
+}
+
+/*main -> personal section -> buttons*/
+#resume, #contactform{
+    text-align: center;
+    padding: 10px
+}
+button {
+  background-color: #865de7;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  color: #3a4750;
+  cursor: pointer;
+  font-weight: 600;
+  padding: .65rem 1rem;
+  text-align: center;
+  width: auto;
+}
+button:hover {
+  background-color: #b19423;
+  color: #c6ced5;
+}
+
+/*main -> infographic section*/
+#infographic{
+    background-color: #f6c90e;
+    color: #3a4750;
+}
+/*main -> infographic section -> infographicContainer div*/
+#infographicContainer{
+    padding: 100px 30px;
+    display: flex;
+
+}
+/*main -> infographic section -> infographicContainer div -> about div*/
+#about{
+    padding: 30px;
+    flex-basis: 60%;
+    flex-grow: 0;
+}
+/*main -> infographic section -> infographicContainer div -> info div*/
+#info{
+    padding: 30px;
+    flex-basis: 40%;
+    flex-grow: 0;
+}
+
+/*main -> education section */
+#education{
+    margin: 60px
+}
+#educationContainer h1{
+    text-align: center;
+    padding:  30px ;
+    color: #395464;
+    margin: 20px;
+}
+
+#table1, #table2{
+    margin: 10px auto 30px;
+    width: 57%;
+    color:#f6c90e;
+    background: #395464;
+    border-radius: 12px;
+    padding: 12px;
+    border-width: 50%;
+    box-shadow: rgba(10, 10, 9, 0.857) 0px 5px 15px;
+}
